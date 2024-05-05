@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Arimo:ital,wght@0,400..700;1,400..700&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rufina:wght@400;700&family=Seaweed+Script&family=Whisper&display=swap');
+*{
+    font-family:"Playfair Display", serif;
+}
+
+.navbar a {
+    font-weight: 600;
+    font-size: 18px;
+}
+.carousel-caption h5 {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.carousel-item::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: black;
+    z-index: 1;
+}
+.services{
+    padding: 80 px 0;
+}
+.bg-car1{
+    url(imagenes/IMG_20240327_174319.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-car2{
+    url(imagenes/IMG_20220426_113007.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.bg-car3{
+    url(imagenes/1539624176206.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-icons i{
+    font-size: 40px;
+
+}
+.box-icons h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.banner h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+
+}
